@@ -19,10 +19,10 @@ public class TryCatch {
                     System.out.println("Invalid input. Please enter a number between 1 to 10 ");
                 }
                 System.out.println("Do you want to see another quote? (y/n) ");
-                input.next();
+                again = input.next();
             } catch (Exception e) {
                 System.out.println("Invalid input. Please enter a number between 1 to 10");
-                input.nextLine();
+                again = input.nextLine();
             }
         }
     }
